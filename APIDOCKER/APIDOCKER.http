@@ -1,0 +1,6 @@
+@APIDOCKER_HostAddress = http://localhost:5133
+
+GET {{APIDOCKER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
