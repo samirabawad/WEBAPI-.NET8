@@ -20,9 +20,8 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build . -t samirabawad/apidocker:latest
+        docker build -f APIDOCKER/Dockerfile -t samirabawad/apidocker:latest APIDOCKER/
 
     - name: Push the Docker image
       run: |
         docker push samirabawad/apidocker:latest
-
