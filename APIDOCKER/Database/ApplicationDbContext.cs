@@ -21,16 +21,13 @@ namespace APIDOCKER.Database
                     //Si no existe/esta disponible la bd, la creamos.
                     if (!dbCreator.CanConnect())
                     {
-                        Console.WriteLine("cae en if connect");
                         dbCreator.Create();
                     }
                     //Si no tiene tablas, las creamos.
                     if (!dbCreator.HasTables())
                     {
-                        Console.WriteLine("cae en if has tables");
                         dbCreator.CreateTables();
                     }
-                    Console.WriteLine("cae fuera de if has tables");
                 }
             }
             catch (Exception ex) 
