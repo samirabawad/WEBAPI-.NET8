@@ -1,7 +1,5 @@
 # APIDOCKER
 
-# APIDOCKER
-
 Este proyecto es una API de ejemplo desarrollada en .NET 8 utilizando C# y Entity Framework. La API está diseñada para demostrar cómo construir y desplegar una aplicación .NET en un contenedor Docker, así como la interacción con una base de datos SQL Server.
 
 ## Descripción del Proyecto
